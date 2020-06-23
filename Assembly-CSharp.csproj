@@ -41,7 +41,9 @@
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Portal.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\RestartLevel.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovementNEW.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovementOLD.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
