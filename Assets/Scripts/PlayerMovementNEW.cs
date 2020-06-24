@@ -21,7 +21,7 @@ public class PlayerMovementNEW : MonoBehaviour
     void Start()
     {
         rg2d = GetComponent<Rigidbody2D>();
-        //assign handle to player animation
+        _anim = GetComponent<PlayerAnimation>();
     }
 
     // Update is called once per frame
@@ -33,13 +33,15 @@ public class PlayerMovementNEW : MonoBehaviour
     void Movement()
     {
         float move = Input.GetAxisRaw("Horizontal");
-        rg2d.velocity = new Vector2(move * _speed, rg2d.velocity.y);
-        // Debug.DrawRay(transform.position, Vector2.down * 0.8f, Color.green);
+
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
         {
             rg2d.velocity = new Vector2(rg2d.velocity.x, _jumpForce);
             StartCoroutine(ResetJumpRoutine());
         }
+        rg2d.velocity = new Vector2(move * _speed, rg2d.velocity.y);
+
+        _anim.Move(move);
     }
 
     bool IsGrounded()

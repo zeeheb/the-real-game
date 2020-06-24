@@ -11,12 +11,6 @@ public class PlayerAnimation : MonoBehaviour
         _anim = GetComponentInChildren<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void Move(float move)
     {
         _anim.SetFloat("Move", Mathf.Abs(move));
