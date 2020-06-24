@@ -41,6 +41,9 @@
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Portal.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\RestartLevel.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
+     <Compile Include="Assets\Scripts\EnemyAnimation.cs" />
+     <Compile Include="Assets\Scripts\EnemyCombat.cs" />
+     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementNEW.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementOLD.cs" />

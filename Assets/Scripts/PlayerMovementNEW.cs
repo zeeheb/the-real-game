@@ -33,6 +33,7 @@ public class PlayerMovementNEW : MonoBehaviour
     void Movement()
     {
         float move = Input.GetAxisRaw("Horizontal");
+        Debug.Log(IsGrounded());
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
         {
@@ -50,7 +51,10 @@ public class PlayerMovementNEW : MonoBehaviour
         if (hitInfo.collider != null)
         {
             if (_resetJump == false)
+            {
                 return true;
+            }
+
         }
         return false;
     }
