@@ -666,6 +666,12 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">

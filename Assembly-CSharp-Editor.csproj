@@ -676,11 +676,27 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{b1f1b8ed-6271-1ac8-7331-d95d2efd2937}</Project>
       <Name>Assembly-CSharp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
+      <Project>{02e0c9e8-54a1-42e6-6ed7-30c3a0088886}</Project>
+      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
+      <Project>{92bc143f-1c53-529f-9a7a-2553ca9549ce}</Project>
+      <Name>Unity.2D.Tilemap.Extras</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
