@@ -64,7 +64,7 @@ public class PlayerMovementNEW : MonoBehaviour
         {
             if (_resetJump == false)
             {
-                Debug.Log("Grounded");
+                // Debug.Log("Grounded");
                 _playerAnim.Jump(false);
                 return true;
             }

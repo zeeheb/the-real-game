@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8a8b78ccab1457548a8146cc52e17fe1
+guid: 4b71d90cfc65be44d8094a4b0d25e3d7
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -110,8 +110,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: Player idle 1_1
       rect:
         serializedVersion: 2
-        x: 144
+        x: 200
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
