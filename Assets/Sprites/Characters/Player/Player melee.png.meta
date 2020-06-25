@@ -1,31 +1,22 @@
 fileFormatVersion: 2
-guid: b47a0928e40b85b4aab02c906ce1b2d8
+guid: 4fe8cc68c26f57f449f2fc553e3b958f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7096607530090193626
-    second: Player melee_0
+      213: -665453217389043089
+    second: Player melee 1_0
   - first:
-      213: 8924865049140566643
-    second: Player melee_1
+      213: -4206156228050612202
+    second: Player melee 1_1
   - first:
-      213: 841549473127136138
-    second: Player melee_2
+      213: -971447314407357076
+    second: Player melee 1_2
   - first:
-      213: 4369008276037922197
-    second: Player melee_3
+      213: -986968739291110154
+    second: Player melee 1_3
   - first:
-      213: 8789492900582756885
-    second: Player melee_4
-  - first:
-      213: -8896729232926932478
-    second: Player melee_5
-  - first:
-      213: 1900093356668984338
-    second: Player melee_6
-  - first:
-      213: 8796996877820581225
-    second: Player melee_7
+      213: -6250618766856697109
+    second: Player melee 1_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,7 +114,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player melee_0
+      name: Player melee 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +128,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad2636df2f63c7260800000000000000
-      internalID: 7096607530090193626
+      spriteID: f62a2e213d5d3c6f0800000000000000
+      internalID: -665453217389043089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player melee_1
+      name: Player melee 1_1
       rect:
         serializedVersion: 2
         x: 200
@@ -158,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37a925ae97d7bdb70800000000000000
-      internalID: 8924865049140566643
+      spriteID: 6101f3d123bb0a5c0800000000000000
+      internalID: -4206156228050612202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player melee_2
+      name: Player melee 1_2
       rect:
         serializedVersion: 2
         x: 400
@@ -179,14 +170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8bf8ae79c8cdab00800000000000000
-      internalID: 841549473127136138
+      spriteID: c650eb280d9b482f0800000000000000
+      internalID: -971447314407357076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player melee_3
+      name: Player melee 1_3
       rect:
         serializedVersion: 2
         x: 600
@@ -200,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d6bf901e5d1ac30800000000000000
-      internalID: 4369008276037922197
+      spriteID: 6f4632a29259d42f0800000000000000
+      internalID: -986968739291110154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player melee_4
+      name: Player melee 1_4
       rect:
         serializedVersion: 2
         x: 800
@@ -221,29 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5129d0f693d8af970800000000000000
-      internalID: 8789492900582756885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player melee_5
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 200
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2028e8846e7788480800000000000000
-      internalID: -8896729232926932478
+      spriteID: beacd1749575149a0800000000000000
+      internalID: -6250618766856697109
       vertices: []
       indices: 
       edges: []

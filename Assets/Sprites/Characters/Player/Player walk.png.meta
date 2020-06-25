@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a7f43281ae994c441a55f4593675e6f0
+guid: a92ecb4f4db41b84fa4dcbc12bcc22e9
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -122,8 +122,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Player walk 1_1
       rect:
         serializedVersion: 2
-        x: 144
+        x: 200
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Player walk 1_2
       rect:
         serializedVersion: 2
-        x: 288
+        x: 400
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Player walk 1_3
       rect:
         serializedVersion: 2
-        x: 432
+        x: 600
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Player walk 1_4
       rect:
         serializedVersion: 2
-        x: 576
+        x: 800
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Player walk 1_5
       rect:
         serializedVersion: 2
-        x: 720
+        x: 1000
         y: 0
-        width: 144
-        height: 144
+        width: 200
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
