@@ -34,7 +34,9 @@ public class PlayerHealth : MonoBehaviour
 
         animator.SetBool("isDead", true);
 
-        GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        // animator.SetBool("isDead", false);
+
+        // GetComponent<Collider2D>().enabled = false;
+        // this.enabled = false;
     }
 }
