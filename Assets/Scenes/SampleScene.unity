@@ -1423,7 +1423,7 @@ GameObject:
   - component: {fileID: 1305819715}
   - component: {fileID: 1305819718}
   - component: {fileID: 1305819717}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Ground_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

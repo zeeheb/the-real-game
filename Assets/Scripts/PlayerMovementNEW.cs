@@ -13,15 +13,17 @@ public class PlayerMovementNEW : MonoBehaviour
 
     [SerializeField]
     private float _speed = 3.0f;
-
-    private PlayerAnimation _anim;
+    private bool _grounded;
+    private PlayerAnimation _playerAnim;
+    private SpriteRenderer _playerSprite;
 
 
     // Start is called before the first frame update
     void Start()
     {
         rg2d = GetComponent<Rigidbody2D>();
-        _anim = GetComponent<PlayerAnimation>();
+        _playerAnim = GetComponent<PlayerAnimation>();
+        _playerSprite = GetComponentInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -33,30 +35,53 @@ public class PlayerMovementNEW : MonoBehaviour
     void Movement()
     {
         float move = Input.GetAxisRaw("Horizontal");
-        Debug.Log(IsGrounded());
+        _grounded = IsGrounded();
+        if (move > 0)
+        {
+            Flip(true);
+        }
+        else if (move < 0)
+        {
+            Flip(false);
+        }
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded() == true)
         {
             rg2d.velocity = new Vector2(rg2d.velocity.x, _jumpForce);
             StartCoroutine(ResetJumpRoutine());
+            _playerAnim.Jump(true);
         }
         rg2d.velocity = new Vector2(move * _speed, rg2d.velocity.y);
 
-        _anim.Move(move);
+        _playerAnim.Move(move);
     }
 
     bool IsGrounded()
     {
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.down * 0.8f, 1 << 8);
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.down * 1f, 1 << 8);
+        Debug.DrawRay(transform.position, Vector2.down, Color.green);
         if (hitInfo.collider != null)
         {
             if (_resetJump == false)
             {
+                Debug.Log("Grounded");
+                _playerAnim.Jump(false);
                 return true;
             }
-
         }
         return false;
+    }
+
+    void Flip(bool faceRight)
+    {
+        if (faceRight == true)
+        {
+            _playerSprite.flipX = false;
+        }
+        else if (faceRight == false)
+        {
+            _playerSprite.flipX = true;
+        }
     }
 
     IEnumerator ResetJumpRoutine()
