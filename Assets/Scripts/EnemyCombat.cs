@@ -8,8 +8,14 @@ public class EnemyCombat : MonoBehaviour
     public Animator animator; // configurar o animator ainda
 
     public Transform attackPoint;
-    public float attackRange = 0.5f;
     public LayerMask enemyLayers;
+
+    public float attackRange = 0.5f;
+    public int attackDamage = 40;
+
+    public float attackRate = 2f;
+    float nextAttackTime = 0f;
+
 
     void Start()
     {
@@ -18,9 +24,14 @@ public class EnemyCombat : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Time.time >= nextAttackTime)
         {
-            Attack();
+
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                Attack();
+                nextAttackTime = Time.time + 1f / attackRate;
+            }
         }
     }
 
@@ -32,7 +43,20 @@ public class EnemyCombat : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            Debug.Log("We hit " + enemy.name);
+            enemy.GetComponent<PlayerHealth>().TakeDamage(attackDamage);
         }
+
+
+    }
+
+
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+        {
+            return;
+        }
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }

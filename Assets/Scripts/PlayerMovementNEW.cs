@@ -13,6 +13,8 @@ public class PlayerMovementNEW : MonoBehaviour
 
     [SerializeField]
     private float _speed = 3.0f;
+
+    [SerializeField]
     private bool _grounded;
     private PlayerAnimation _playerAnim;
     private SpriteRenderer _playerSprite;
@@ -30,6 +32,8 @@ public class PlayerMovementNEW : MonoBehaviour
     void Update()
     {
         Movement();
+        Attack();
+
     }
 
     void Movement()
@@ -56,6 +60,19 @@ public class PlayerMovementNEW : MonoBehaviour
         _playerAnim.Move(move);
     }
 
+    void Attack()
+    {
+        if (Input.GetMouseButtonDown(0) && IsGrounded() == true)
+        {
+            _playerAnim.Melee();
+        }
+
+        if (Input.GetKeyDown(KeyCode.R) && IsGrounded() == true)
+        {
+            _playerAnim.Ranged();
+        }
+    }
+
     bool IsGrounded()
     {
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.down * 1f, 1 << 8);
@@ -64,7 +81,7 @@ public class PlayerMovementNEW : MonoBehaviour
         {
             if (_resetJump == false)
             {
-                Debug.Log("Grounded");
+                // Debug.Log("Grounded");
                 _playerAnim.Jump(false);
                 return true;
             }

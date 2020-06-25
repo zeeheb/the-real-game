@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\EnemyCombat.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementNEW.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementOLD.cs" />
     <Reference Include="UnityEngine">
