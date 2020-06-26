@@ -43,6 +43,7 @@
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
      <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\Scripts\Enemy\Golem.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Golemm.cs" />
      <Compile Include="Assets\Scripts\Enemy\Licker.cs" />
      <Compile Include="Assets\Scripts\GolemAnimation.cs" />
      <Compile Include="Assets\Scripts\GolemCombat.cs" />
