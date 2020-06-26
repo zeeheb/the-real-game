@@ -41,13 +41,16 @@
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Portal.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\RestartLevel.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
-     <Compile Include="Assets\Scripts\EnemyAnimation.cs" />
-     <Compile Include="Assets\Scripts\EnemyCombat.cs" />
-     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-     <Compile Include="Assets\Scripts\PlayerAnimation.cs" />
-     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovementNEW.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovementOLD.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Golem.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Licker.cs" />
+     <Compile Include="Assets\Scripts\GolemAnimation.cs" />
+     <Compile Include="Assets\Scripts\GolemCombat.cs" />
+     <Compile Include="Assets\Scripts\GolemMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovementNEW.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovementOLD.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
