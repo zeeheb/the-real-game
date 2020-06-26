@@ -122,8 +122,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 120
-        height: 120
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Golem walk_1
       rect:
         serializedVersion: 2
-        x: 120
+        x: 160
         y: 0
-        width: 120
-        height: 120
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Golem walk_2
       rect:
         serializedVersion: 2
-        x: 240
+        x: 320
         y: 0
-        width: 120
-        height: 120
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Golem walk_3
       rect:
         serializedVersion: 2
-        x: 360
+        x: 480
         y: 0
-        width: 120
-        height: 120
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Golem walk_4
       rect:
         serializedVersion: 2
-        x: 480
+        x: 640
         y: 0
-        width: 120
-        height: 120
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Golem walk_5
       rect:
         serializedVersion: 2
-        x: 600
+        x: 800
         y: 0
-        width: 120
-        height: 120
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
