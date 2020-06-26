@@ -20,4 +20,14 @@ public class PlayerAnimation : MonoBehaviour
     {
         _anim.SetBool("Jumping", jumping);
     }
+
+    public void Melee()
+    {
+        _anim.SetTrigger("Melee");
+    }
+
+    public void Ranged()
+    {
+        _anim.SetTrigger("Ranged");
+    }
 }

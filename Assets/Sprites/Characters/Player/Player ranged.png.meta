@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2159be41f39549a4ca8af055dc16f802
+guid: 8c07349fa5e97ac47ba8250956fa68ab
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -17,9 +17,6 @@ TextureImporter:
   - first:
       213: 1758975083421300015
     second: Player ranged_4
-  - first:
-      213: 1623793276187456634
-    second: Player ranged_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -217,27 +214,6 @@ TextureImporter:
       bones: []
       spriteID: f25f618d482296810800000000000000
       internalID: 1758975083421300015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player ranged_5
-      rect:
-        serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 200
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7432d7a16fd88610800000000000000
-      internalID: 1623793276187456634
       vertices: []
       indices: 
       edges: []
