@@ -188,33 +188,33 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 4443939425140264651}
-    m_Position: {x: 330, y: 150, z: 0}
+    m_Position: {x: 580, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7328830361333254476}
-    m_Position: {x: 330, y: 260, z: 0}
+    m_Position: {x: 400, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -547042583262489282}
-    m_Position: {x: 560, y: 210, z: 0}
+    m_Position: {x: 730, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6691913729700431575}
-    m_Position: {x: 110, y: 350, z: 0}
+    m_Position: {x: -20, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2687375755471022343}
-    m_Position: {x: 170.45435, y: -93.60776, z: 0}
+    m_Position: {x: 170, y: -190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5296404461757981755}
-    m_Position: {x: 170, y: -210, z: 0}
+    m_Position: {x: 170, y: -350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6595844373690968400}
-    m_Position: {x: -20, y: 220, z: 0}
+    m_Position: {x: -10, y: 220, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 4113182347996015398}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_AnyStatePosition: {x: -100, y: 10, z: 0}
+  m_EntryPosition: {x: -100, y: 140, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 4443939425140264651}
@@ -453,37 +453,37 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Jumping
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Melee
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Hurt
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isDead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Ranged
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

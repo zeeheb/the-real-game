@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyCombat : MonoBehaviour
+public class GolemCombat : MonoBehaviour
 {
 
     public Animator animator; // configurar o animator ainda
