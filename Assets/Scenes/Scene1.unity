@@ -13585,7 +13585,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 50
+  m_SortingOrder: 45
   m_Sprite: {fileID: 9000996379135617618, guid: 44004f0da63e9f9449004e4cfa59a779,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14984,7 +14984,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 50
-  m_Sprite: {fileID: -8075968240466629250, guid: ba1eab42404daae4fbf71d0dbe35a107,
+  m_Sprite: {fileID: -6284425756668390453, guid: 8df0bad055f76ba47af05c4c05ee30dd,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17698,7 +17698,7 @@ Tilemap:
       - {fileID: 6686458191116153880, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: -2431581480694403491, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: 1072639149273677670, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -5, y: -8, z: 0}
@@ -17860,7 +17860,7 @@ Tilemap:
       - {fileID: 6686458191116153880, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: -2431581480694403491, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: 1072639149273677670, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 13, y: -8, z: 0}
@@ -17878,7 +17878,7 @@ Tilemap:
       - {fileID: 6686458191116153880, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: -2431581480694403491, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: 1072639149273677670, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 15, y: -8, z: 0}
@@ -17896,7 +17896,7 @@ Tilemap:
       - {fileID: 6686458191116153880, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: -2431581480694403491, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
       - {fileID: 1072639149273677670, guid: 385a58b2f92542947aa6d923d7b8da36, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 17, y: -8, z: 0}
