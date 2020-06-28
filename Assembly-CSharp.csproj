@@ -41,15 +41,13 @@
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Portal.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\RestartLevel.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Bug.cs" />
      <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\Scripts\Enemy\FlyingAI.cs" />
      <Compile Include="Assets\Scripts\Enemy\FlyingGFX.cs" />
      <Compile Include="Assets\Scripts\Enemy\Golem.cs" />
-     <Compile Include="Assets\Scripts\Enemy\Golemm.cs" />
      <Compile Include="Assets\Scripts\Enemy\Licker.cs" />
-     <Compile Include="Assets\Scripts\GolemAnimation.cs" />
      <Compile Include="Assets\Scripts\GolemCombat.cs" />
-     <Compile Include="Assets\Scripts\GolemMovement.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovementNEW.cs" />
