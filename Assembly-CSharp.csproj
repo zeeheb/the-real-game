@@ -592,6 +592,9 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
         <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -655,6 +658,9 @@
     <Reference Include="Unity.2D.Animation.Editor">
         <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
         <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -669,12 +675,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>D:/Program Files (x86)/Unity/therealgame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
