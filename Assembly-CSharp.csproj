@@ -46,6 +46,7 @@
      <Compile Include="Assets\Scripts\Enemy\Golem.cs" />
      <Compile Include="Assets\Scripts\Enemy\Licker.cs" />
      <Compile Include="Assets\Scripts\GolemCombat.cs" />
+     <Compile Include="Assets\Scripts\Player\Attack.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerMovementNEW.cs" />
