@@ -3942,7 +3942,7 @@ GameObject:
   - component: {fileID: 890019631}
   - component: {fileID: 890019633}
   - component: {fileID: 890019632}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111656,7 +111656,7 @@ Tilemap:
       - {fileID: 6950709768184568528, guid: d1a58f26b462f8243acb7cb84e4442f9, type: 3}
       - {fileID: 837017221450738011, guid: d1a58f26b462f8243acb7cb84e4442f9, type: 3}
       - {fileID: 9103131428984308761, guid: d1a58f26b462f8243acb7cb84e4442f9, type: 3}
-      m_AnimationSpeed: 5
+      m_AnimationSpeed: 5.0000005
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 10, y: 2, z: 0}
