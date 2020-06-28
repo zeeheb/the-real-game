@@ -42,6 +42,8 @@
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\RestartLevel.cs" />
      <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
      <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Enemy\FlyingAI.cs" />
+     <Compile Include="Assets\Scripts\Enemy\FlyingGFX.cs" />
      <Compile Include="Assets\Scripts\Enemy\Golem.cs" />
      <Compile Include="Assets\Scripts\Enemy\Golemm.cs" />
      <Compile Include="Assets\Scripts\Enemy\Licker.cs" />
@@ -234,6 +236,9 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>D:/Unyty/2019.3.13f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+        <HintPath>D:/Unyty/prjs/thegame/therealgame/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:/Unyty/2019.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -686,6 +691,21 @@
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
       <Project>{92bc143f-1c53-529f-9a7a-2553ca9549ce}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{46c532b6-2dd5-210c-87e6-fe4518d3dd4f}</Project>
+      <Name>AstarPathfindingProject</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{7a55e27f-acaf-0c53-5131-cd6ed069b9db}</Project>
+      <Name>PackageToolsEditor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{0bebe837-5323-9197-097b-64812c9c63cb}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
