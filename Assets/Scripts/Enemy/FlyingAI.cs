@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class FlyingAI : MonoBehaviour
+public class FlyingAI : MonoBehaviour, IDamageable
 {
+
+    public int Health { get; set; }
+
     public Transform target;
 
     public float speed = 200f;
@@ -86,5 +89,10 @@ public class FlyingAI : MonoBehaviour
         {
             enemyGFX.localScale = new Vector3(1f, 1f, 1f);
         }
+    }
+
+    public void Damage()
+    {
+
     }
 }

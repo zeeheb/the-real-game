@@ -75,13 +75,8 @@ public class PlayerMovementNEW : MonoBehaviour
 
     bool IsGrounded()
     {
-<<<<<<< HEAD
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.down, 1.1f, 1 << 8);
-        Debug.DrawRay(transform.position, Vector2.down * 1.2f, Color.blue);
-=======
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.down, 1.2f, 1 << 8);
         Debug.DrawRay(transform.position, Vector2.down * 1.1f, Color.blue);
->>>>>>> af7e87aef1158cc603ce0c9ecca9dadd804ba0c2
         if (hitInfo.collider != null)
         {
             if (_resetJump == false)
@@ -97,11 +92,14 @@ public class PlayerMovementNEW : MonoBehaviour
     {
         if (faceRight == true)
         {
-            _playerSprite.flipX = false;
+            //Best to use transform.localScale if the player has children
+            transform.localScale = new Vector3(1, 1, 1);
+            //_playerSprite.flipX = false;
         }
         else if (faceRight == false)
         {
-            _playerSprite.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
+            //_playerSprite.flipX = true;
         }
     }
 
