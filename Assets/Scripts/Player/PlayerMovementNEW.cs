@@ -92,11 +92,14 @@ public class PlayerMovementNEW : MonoBehaviour
     {
         if (faceRight == true)
         {
-            _playerSprite.flipX = false;
+            //Best to use transform.localScale if the player has children
+            transform.localScale = new Vector3(1, 1, 1);
+            //_playerSprite.flipX = false;
         }
         else if (faceRight == false)
         {
-            _playerSprite.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
+            //_playerSprite.flipX = true;
         }
     }
 
