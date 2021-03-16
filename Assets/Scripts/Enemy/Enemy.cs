@@ -36,11 +36,11 @@ public abstract class Enemy : MonoBehaviour
     {
         if (currentTarget == pointB.position)
         {
-            sprite.flipX = true;
+            transform.localScale = new Vector3(1, 1, 1);
         }
         else
         {
-            sprite.flipX = false;
+            transform.localScale = new Vector3(-1, 1, 1);;
         }
 
         if (transform.position == pointA.position)

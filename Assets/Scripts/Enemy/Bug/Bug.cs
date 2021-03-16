@@ -9,7 +9,7 @@ public class Bug : Enemy, IDamageable
     public override void Init()
     {
         base.Init();
-
+        Health = base.health;
     }
 
     public void Damage()

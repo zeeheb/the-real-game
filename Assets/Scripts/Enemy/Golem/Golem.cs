@@ -23,6 +23,7 @@ public class Golem : Enemy, IDamageable
 
         if (Health < 1)
         {
+            anim.SetTrigger("Death");
             Destroy(this.gameObject);
         }
     }
